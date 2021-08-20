@@ -1,15 +1,16 @@
-" Apprentice.vim -- Vim color scheme.
+" ccacolours.vim -- Vim color scheme.
 " Author:      Romain Lafourcade (romainlafourcade@gmail.com)
+" Author:      Chris Allison
 " Webpage:     https://github.com/romainl/Apprentice
 " Description: Essentially a streamlining and conversion to xterm colors of 'sorcerer' by Jeet Sukumaran (jeetsukumaran@gmailcom)
-" Last Change: 2020-12-19
+" Last Change: 2021-08-20
 
 hi clear
 if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "apprentice"
+let colors_name = "ccacolours"
 
 if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Normal ctermbg=235 ctermfg=250 cterm=NONE guibg=#262626 guifg=#bcbcbc gui=NONE
