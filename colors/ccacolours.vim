@@ -24,7 +24,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Folded ctermbg=234 ctermfg=242 cterm=NONE guibg=#1c1c1c guifg=#6c6c6c gui=NONE
     hi MatchParen ctermbg=234 ctermfg=229 cterm=NONE guibg=#1c1c1c guifg=#ffffaf gui=NONE
     hi SignColumn ctermbg=234 ctermfg=242 cterm=NONE guibg=#1c1c1c guifg=#6c6c6c gui=NONE
-    hi Comment ctermbg=NONE ctermfg=110 cterm=NONE guibg=NONE guifg=#87afd7 gui=NONE
+    hi Comment ctermbg=NONE ctermfg=100 cterm=NONE guibg=NONE guifg=#87afd7 gui=NONE
     hi Conceal ctermbg=NONE ctermfg=250 cterm=NONE guibg=NONE guifg=#bcbcbc gui=NONE
     hi Constant ctermbg=NONE ctermfg=208 cterm=NONE guibg=NONE guifg=#ff8700 gui=NONE
     hi Error ctermbg=NONE ctermfg=131 cterm=reverse guibg=NONE guifg=#af5f5f gui=reverse
